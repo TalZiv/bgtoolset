@@ -1,3 +1,4 @@
+
 # bgtoolset
 
 This is a dump of excellent Ps3xploit Team [bgtoolset](https://www.ps3xploit.net/bgtoolset/). **I'm not an author of any of these tools**, all credits go to
@@ -30,3 +31,12 @@ website goes down.
 | SLIM    | CECH-2503B | 4.88     | ✅     | E-mail info                                                         |
 | SLIM    | CECH-2504  | 4.88     | ✅     | [Twitter](https://twitter.com/leerz25/status/1555749812988809216#m) |
 | FAT     | CECH-J03   | 4.87     | ✅     | Myself                                                              |
+
+## Docker Instructions
+- Clone repository
+- Install Docker: https://docs.docker.com/get-docker/ 
+- build image:  
+> docker build -t bgtools:1.1.0.0.3 .
+- Run the image:
+> docker run -i -t --rm -p 8080:8080  bgtools:1.1.0.0.3
+- Open local browser at http://localhost:8080 or using your PC local IP through the PS3 for example http://192.168.1.100:8080 just make sure to replace 192.168.1.100 with your local IP.
